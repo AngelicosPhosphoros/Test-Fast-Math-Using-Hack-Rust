@@ -27,10 +27,10 @@ Then builds and run Rust project to show difference between IEEE-754 compilant a
 
 ```
 Running IEEE-754 floating math
-Elapsed 177 microseconds
+Elapsed 155 microseconds
 Result: 2666686666700000
 
 Running fast floating math
-Elapsed 40 microseconds
+Elapsed 104 microseconds
 Result: 2666686666700000
 ```

@@ -29,8 +29,8 @@ fn main() {
     let (dot_product_fast, dot_product_slow) = load_functions();
     // eager loading of symbols
     unsafe{
-        dot_product_fast(arr1.as_ptr(), arr2.as_ptr(), LIMIT);
-        dot_product_slow(arr1.as_ptr(), arr2.as_ptr(), LIMIT);
+        dot_product_fast([].as_ptr(), [].as_ptr(), 0);
+        dot_product_slow([].as_ptr(), [].as_ptr(), 0);
     }
     
     let use_fast = {
